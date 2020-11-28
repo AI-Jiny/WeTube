@@ -6,7 +6,7 @@ export const search = (req, res) => {
   const {
     query: { term: searchingBy }
   } = req;                                                                            //이전에는 const serchingBy = req.query.term; 으로 했었음
-  res.render("search", { pageTitle: "Search", searchingBy });
+  res.render("search", { pageTitle: "Search", searchingBy, videos });
 };
 
 export const upload = (req, res) =>
