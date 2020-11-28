@@ -1,14 +1,12 @@
 {
   "name": "wetube",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "Cloning Youtube with Vanilla and NodeJS",
+  "author": "Nicolás Serrano Arévalo",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
